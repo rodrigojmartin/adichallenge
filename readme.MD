@@ -28,6 +28,7 @@ You should receive an error message stating that the product you are trying to u
 
 * Make the MongoDB connection a Singleton
 * Close the MongoDB connection after the tests end
+* Add data providers for each test instead of directly loading json files for test data
 * Create more test cases around long strings, different formats other than UTF-8, lists of values passed as parameters
 * Validate that the operations are being impacted in the MongoDB collections in an end to end bfashion
 * Create performance tests with k6.io to validate response of the service with load and add to CI/CD
