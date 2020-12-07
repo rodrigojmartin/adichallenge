@@ -29,9 +29,10 @@ You should receive an error message stating that the product you are trying to u
 * Make the MongoDB connection a Singleton
 * Close the MongoDB connection after the tests end
 * Create more test cases around long strings, different formats other than UTF-8, lists of values passed as parameters
-* Validate that the operations are being impacted in the MongoDB collections
+* Validate that the operations are being impacted in the MongoDB collections in an end to end bfashion
 * Create performance tests with k6.io to validate response of the service with load and add to CI/CD
 * Add Contract Tests for this APIS and its consumers to automatically test the contracts
+* Atomic commits being done instead of a big bang commit in git
 
 # Possible Performance Improvements for the API
 
