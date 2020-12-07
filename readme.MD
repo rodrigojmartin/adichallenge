@@ -4,9 +4,9 @@ Java 1.8 and Maven
 # Usage
 1. Start the services with the provided repo and run `docker-compose up`
 2. Install dependencies via `mvn install`
-2. Execute tests with: `mvn test`
+3. Execute tests with: `mvn test`
 
-#Bugs found
+# Bugs found
 
 1. The Price Engine returns prices for Products that do not exist. 
 First, delete all the documents in the MongoDB Collection Products. Then, Try the following request: `curl -X GET "http://localhost:3000/product/2340923402394" -H  "accept: application/json" -H  "accept-language: en-us"`
@@ -24,7 +24,7 @@ You should receive an error message stating that the product you are trying to u
 * The url is deleteUser, a little misleading as well. 
 
 
-#Possible improvements to the project
+# Possible improvements to the project
 
 * Make the MongoDB connection a Singleton
 * Close the MongoDB connection after the tests end
